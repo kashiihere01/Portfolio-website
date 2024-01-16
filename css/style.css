@@ -305,6 +305,10 @@ img
     letter-spacing: 4px;
     color: var(--main-color);
 }
+#inbox2 img{
+  margin-bottom: 14px;
+ 
+}
 .home-section .home-text h1
 {
     font-size: 50px;
@@ -379,7 +383,7 @@ img
 .about-section .about-image .img-box .about-shape
 {
     width: 404px;
-    height: 525px;
+    height: 600px;
     border-left: 15px solid var(--main-color);
     border-bottom: 15px solid var(--main-color);
     position: absolute;
@@ -387,12 +391,13 @@ img
     left: 0;
     z-index: -1;
 }
+
 .about-section .about-image .img-box .about-shape::before
 {
     position: absolute;
     content: '';
     width: 15px;
-    height: 85%;
+    height: 87%;
     background-color: var(--main-color);
     bottom: 0;
     right: 0;
